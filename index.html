@@ -286,18 +286,27 @@
   </footer>
 
   <!-- Popup -->
-  <div id="popup" class="popup">
-    <div class="popup-content">
-      <h2>Get in Touch</h2>
-      <form>
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <!-- Close Button -->
+    <span class="close-btn">&times;</span>
+    <!-- Title -->
+    <h2>Get in Touch</h2>
+    <!-- Form -->
+    <form>
+      <div class="form-group">
         <input type="text" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
         <input type="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
         <textarea placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Submit</button>
-      </form>
-      <span class="close-btn">&times;</span>
-    </div>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
   </div>
+</div>
 
   <script src="script.js"></script>
 </body>
