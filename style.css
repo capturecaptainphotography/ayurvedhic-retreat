@@ -47,7 +47,10 @@ header {
   .logo {
     text-align: left;
   }
-  
+  header .logo img {
+    height: 50px;
+    border-radius: 30px;
+  }
   .business-name {
     font-family: 'Arial', sans-serif;
     font-weight: bold;
