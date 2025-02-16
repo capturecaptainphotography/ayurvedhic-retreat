@@ -52,7 +52,7 @@ header {
     height: 60px; /* Adjust height as needed */
     width: auto; /* Maintain aspect ratio */
     transition: transform 0.3s ease; /* Smooth hover effect */
-    border-radius: 30px;
+    border-radius: 17px;
   }
   
   .logo-img:hover {
@@ -109,13 +109,14 @@ header {
   
     header nav ul {
       gap: 0.4rem;
+      margin-top: 11px;
     }
   
     header nav ul li a {
       font-size: 0.9rem;
     }
     .logo-img {
-        height: 50px; /* Smaller logo for mobile */
+        height: 41px; /* Smaller logo for mobile */
       }
   }
   
